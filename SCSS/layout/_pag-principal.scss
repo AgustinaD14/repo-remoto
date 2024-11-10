@@ -1,0 +1,33 @@
+/* PAGINA PRINCIPAL */
+
+.pag-principal{
+    background-image: url(../assets/portada2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 2000px; 
+    height: 70vh; 
+    margin: 1rem auto;
+    display: flex;
+    align-items: center; 
+    padding: 1rem; 
+    box-sizing: border-box; 
+    justify-content: center;
+}
+
+.titulo-pag-principal{
+    color: #f1f1f1;
+    font-family: "Ramaraja", serif;
+    font-size: 5rem;
+    text-shadow: 4px 3px 0px rgba(0, 0, 0, 0.815);
+    text-align: center;
+
+}
+.parrafo-pag-principal{
+    color: #f1f1f1;
+    font-family: "Ramaraja", serif;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 4px 5px 8px rgba(0,0,0,0.57);    
+}

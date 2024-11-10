@@ -1,0 +1,35 @@
+/* Media Query para pantallas más grandes (escritorio) */
+@media (max-width: 990px) { 
+    .container { grid-template-columns: 1fr; 
+    } 
+    .imagenolivar { width: 100%; 
+    }
+    .item2{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+.donde-nos-encontramos p {
+    margin: 10px 20px; 
+}
+
+.boton-ubicacion {
+    margin: 0 35%; 
+}
+
+.titulo-pag-principal {
+    font-size: 3rem; 
+}
+    
+.parrafo-pag-principal {
+    font-size: 1.5rem; 
+}
+
+.pag-principal {
+    height: 50vh; 
+    padding: 0.5rem;
+}
+
+}
