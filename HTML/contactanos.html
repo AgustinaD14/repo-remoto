@@ -9,7 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-</head>
+    <!-- LINK AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -50,12 +53,13 @@
     <section class="contactanos">
       <h1>Contactanos</h1>
 
-     <p>Únete a la familia Tupelí Agroalimentos, donde la pasión por la calidad y la autenticidad se fusiona. Descubre la excelencia culinaria en cada producto. Desde aceite de oliva exquisito hasta productos gourmet, te invitamos a ser parte de nuestra tradición.
+     <p data-aos="fade-up" data-aos-duration="1000">Únete a la familia Tupelí Agroalimentos, donde la pasión por la calidad y la autenticidad se fusiona. Descubre la excelencia culinaria en cada producto. Desde aceite de oliva exquisito hasta productos gourmet, te invitamos a ser parte de nuestra tradición.
       ¡Sabor único, calidad inigualable, y bienvenido a casa!</p>
     </section>
 
 
-    <div class="container-formulario">
+    <div class="container-formulario" data-aos="fade-up"
+    data-aos-duration="3000">
         <h2>Haznos tu consulta</h2>
       <div class="form2">
             <form action="#" method="post">
@@ -79,6 +83,12 @@
       <a href="https://www.instagram.com/tupeliagroalimentos" target="_blank">Instagram</a>
 
   </footer>
+
+  <!-- LINK AOS ANIMATION -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+  <script>
+     AOS.init();
+  </script> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

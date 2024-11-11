@@ -15,7 +15,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Bona+Nova:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&family=Ramaraja&display=swap" rel="stylesheet">
-</head>
+    <!-- LINK AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -52,7 +55,8 @@
           </nav> 
 
           <section class="pag-principal">
-            <div>
+            <div data-aos="fade-up"
+            data-aos-duration="3000">
               <h1 class="titulo-pag-principal">PRODUCTOS SANJUANINOS <br>
                 100% NATURALES
               </h1>
@@ -72,6 +76,12 @@
       <a href="https://www.instagram.com/tupeliagroalimentos" target="_blank">Instagram</a>
 
   </footer>
+
+   <!-- LINK AOS ANIMATION -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+  <script>
+     AOS.init();
+  </script> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -87,26 +87,22 @@ div {
   margin-top: 20px;
   padding: 0 20px;
 }
-
 .container-nuestros-productos h2 {
   font-family: "Cormorant Garamond", serif;
   font-size: 2rem;
   color: rgba(37, 37, 37, 0.8156862745);
 }
-
 .container-nuestros-productos span h2 {
   font-family: "Cormorant Garamond", serif;
   font-size: 2rem;
   color: #61948C;
 }
-
 .container-nuestros-productos h4 {
   font-family: "Cormorant Garamond", serif;
   font-size: 1.7rem;
   margin-top: 10px;
   color: rgba(37, 37, 37, 0.8705882353);
 }
-
 .container-nuestros-productos p {
   font-size: 1.25rem;
   margin: 0.4rem 5rem;
@@ -134,7 +130,6 @@ div {
   align-items: center;
   margin-top: 40px;
 }
-
 .container-formulario h2 {
   font-family: "Cormorant Garamond", serif;
   color: rgba(37, 37, 37, 0.8352941176);
@@ -179,12 +174,10 @@ input[type=submit]:hover {
 footer {
   text-align: center;
 }
-
 footer h5 {
   font-size: 1.2rem;
   color: #252525;
 }
-
 footer a {
   font-weight: bold;
   text-decoration: none;
@@ -192,7 +185,6 @@ footer a {
   transition: 0.5s;
   font-size: 1.1rem;
 }
-
 footer a:hover {
   color: #252525;
 }
@@ -209,7 +201,6 @@ footer a:hover {
   border: 1px solid #252525;
   transition: 0.5s;
 }
-
 .enlace-quienes-somos:hover {
   background-color: #ffe600;
 }
@@ -225,7 +216,6 @@ footer a:hover {
   transition: 0.5s;
   text-align: center;
 }
-
 .boton-ubicacion a:hover {
   background-color: #ffe600;
 }
